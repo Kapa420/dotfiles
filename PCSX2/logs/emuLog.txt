@@ -1,0 +1,547 @@
+
+PCSX2 Nightly - v1.7.2277 Compiled on Jan 26 2022
+Savestate version: 0x9a2c0000
+
+Host Machine Init:
+	Operating System =  Garuda Linux
+	Physical RAM     =  7824 MB
+	CPU name         =  Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+	Vendor/Model     =  GenuineIntel (stepping 03)
+	CPU speed        =  1.990 ghz (4 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7ffafbbf
+	x86EFlags        =  2c100800
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+	Pcsx2 was compiled as 64-bits.
+
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+HLE Host: Set 'host:' root path to: /
+
+Patches: No CRC found, using 00000000 instead.
+isoFile open ok: /home/ankar/Downloads/Simpsons, The - Hit & Run (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1051888 sectors)
+EGL Version: 1.5
+EGL Extensions: EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_CHROMIUM_sync_control EGL_EXT_buffer_age EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_swap_buffers_with_damage EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_NOK_texture_from_pixmap EGL_WL_bind_wayland_display 
+Trying version 4.6 (Core)
+Got version 4.6 (Core)
+Created a OpenGL context
+GL_VENDOR: Intel
+GL_RENDERER: Mesa Intel(R) HD Graphics 520 (SKL GT2)
+GL_VERSION: 4.6 (Core Profile) Mesa 21.3.5
+GL_SHADING_LANGUAGE_VERSION: 4.60
+1 program binary formats supported by driver
+Read 34 entries from '/home/ankar/.config/PCSX2/cache/gl_programs.idx'
+Using hardware for point expansion and hardware for line expansion.
+Vsync is OFF
+(Cubeb) Using normal 2 speaker stereo output.
+(Cubeb) Minimum latency: 25.00 ms (1200 audio frames)
+(Cubeb) Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+McdSlot 0 [File]: /home/ankar/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/ankar/.config/PCSX2/memcards/Mcd002.ps2
+EE/iR5900-32 Recompiler Reset
+	Bios Found: Japan   v01.00(17/01/2000)  Console
+	BIOS rom1 module not found, skipping...
+	BIOS rom2 module not found, skipping...
+	BIOS erom module not found, skipping...
+# Initialize memory (rev:3.17, ctm:393Mhz, cpuclk:295Mhz )
+INFO: GL_ARB_sparse_texture is NOT SUPPORTED
+INFO: GL_ARB_sparse_texture2 is NOT SUPPORTED
+INFO: GL_ARB_gpu_shader5 is available
+INFO: GL_ARB_shader_image_load_store is available
+INFO: GL_ARB_clear_texture is available
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GS Lookup CRC:00000000
+48000 SampleRate: 
+GS Lookup CRC:00000000
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2000-0117, IOP info (CPUID=1f, CACH_CONFIG=ffffffff, 2MB, IOP mode)
+ <20000117-050310,ROMconf,:11232>
+# Total accessable memory size: 32 MB (B:2:8:0)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Dec 10 1999 17:48:37
+  CPUID=2e20, BoardID=0, ROMGEN=2000-0117, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_206.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLUS_206.24;1) Game CRC = 0xFC99EC8C, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_206.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_206.24;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_206.24;1
+0 00100000 003ad4e4 ...........................................................
+Loaded, cdrom0:¥SLUS_206.24;1
+start address 0x100008
+gp address 00000000
+# Loader 'cdrom0:¥SLUS_206.24;1':pc=00100008
+Elf entry point @ 0x00100008 about to get recompiled. Load patches first.
+[GameDB] Has not been initialized yet, initializing...
+[GameDB] 10769 games on record (loaded in 1017.82ms)
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+(GameDB) Enabled Gamefix: FpuNegDiv
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+EE/iR5900-32 Recompiler Reset
+Get Reboot Request From EE
+GS Lookup CRC:FC99EC8C
+GS Lookup CRC:FC99EC8C
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥IRX¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥IRX¥SDRDRV.IRX;1 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥IRX¥RADSOUND.IRX;1 args 0 arg 
+loadmodule: id 27, ret 0
+radSound: IopLoadServer Init:
+    Version:                  [0x107]
+    Debug Channel Enabled:    [0x0]
+    UnInterleave Buffer Size: [34816]
+    Transfer Buffer Size:     [34816]
+    Clear Buffer Size:        [8192]
+    Total Memory Used:        [77824]
+radSound: IopVoiceServer Init
+    Version: [0x107]
+(UpdateVSyncRate) Mode Changed to NTSC.
+	... with user configured refresh rate: 59.94 Hz
+loadmodule: fname cdrom0:¥IRX¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥IRX¥MTAPMAN.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥IRX¥PADMAN.IRX;1 args 0 arg 
+loadmodule: id 30, ret 0
+loadmodule: fname cdrom0:¥IRX¥USBD.IRX;1 args 0 arg 
+USB Driver (Version 1.1.0)
+loadmodule: id 31, ret 2
+loadmodule: fname cdrom0:¥IRX¥LGDEVW.IRX;1 args 0 arg 
+LgDev_tb_rb_Driver Version 1.08( Wheel ), built on Sep 24 2002 at 18:34:09, thpri=42,43
+loadmodule: id 32, ret 0
+Version 1.08, built on Sep 24 2002 at 18:34:54
+loadmodule: fname cdrom0:¥IRX¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 33, ret 2
+loadmodule: fname cdrom0:¥IRX¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 34, ret 2
+(FileMcd) Creating new PS2 8MB memory card: '/home/ankar/.config/PCSX2/memcards/my memory card.ps2'
+Created a new unassigned memory card file: 'my memory card.ps2'
+Apply memory cards:
+slot[0]='Mcd001.ps2'
+slot[1]='Mcd002.ps2'
+
+(pcsx2:74167): Gtk-CRITICAL **: 02:10:24.912: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+Apply memory cards:
+slot[0]='my memory card.ps2'
+slot[1]='Mcd002.ps2'
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+isoFile open ok: /home/ankar/Downloads/Simpsons, The - Hit & Run (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1051888 sectors)
+(Cubeb) Using normal 2 speaker stereo output.
+(Cubeb) Minimum latency: 25.00 ms (1200 audio frames)
+(Cubeb) Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+McdSlot 0 [File]: /home/ankar/.config/PCSX2/memcards/my memory card.ps2
+McdSlot 1 [File]: /home/ankar/.config/PCSX2/memcards/Mcd002.ps2
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+isoFile open ok: /home/ankar/Downloads/Simpsons, The - Hit & Run (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1051888 sectors)
+(Cubeb) Using normal 2 speaker stereo output.
+(Cubeb) Minimum latency: 25.00 ms (1200 audio frames)
+(Cubeb) Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+McdSlot 0 [File]: /home/ankar/.config/PCSX2/memcards/my memory card.ps2
+McdSlot 1 [File]: /home/ankar/.config/PCSX2/memcards/Mcd002.ps2
+Decommitting host memory for virtual systems...
+EE/iR5900-32 Recompiler Reset
+HLE Host: Set 'host:' root path to: /
+
+Patches: No CRC found, using 00000000 instead.
+isoFile open ok: /home/ankar/Downloads/Simpsons, The - Hit & Run (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1051888 sectors)
+(Cubeb) Using normal 2 speaker stereo output.
+(Cubeb) Minimum latency: 25.00 ms (1200 audio frames)
+(Cubeb) Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+McdSlot 0 [File]: /home/ankar/.config/PCSX2/memcards/my memory card.ps2
+McdSlot 1 [File]: /home/ankar/.config/PCSX2/memcards/Mcd002.ps2
+	Bios Found: Japan   v01.00(17/01/2000)  Console
+	BIOS rom1 module not found, skipping...
+	BIOS rom2 module not found, skipping...
+	BIOS erom module not found, skipping...
+# Initialize memory (rev:3.17, ctm:393Mhz, cpuclk:295Mhz )
+48000 SampleRate: 
+48000 SampleRate: 
+48000 SampleRate: 
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2000-0117, IOP info (CPUID=1f, CACH_CONFIG=ffffffff, 2MB, IOP mode)
+ <20000117-050310,ROMconf,:11232>
+# Total accessable memory size: 32 MB (B:2:8:0)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Dec 10 1999 17:48:37
+  CPUID=2e20, BoardID=0, ROMGEN=2000-0117, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_206.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLUS_206.24;1) Game CRC = 0xFC99EC8C, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_206.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_206.24;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_206.24;1
+0 00100000 003ad4e4 ...........................................................
+Loaded, cdrom0:¥SLUS_206.24;1
+start address 0x100008
+gp address 00000000
+# Loader 'cdrom0:¥SLUS_206.24;1':pc=00100008
+Elf entry point @ 0x00100008 about to get recompiled. Load patches first.
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+(GameDB) Enabled Gamefix: FpuNegDiv
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+EE/iR5900-32 Recompiler Reset
+Get Reboot Request From EE
+GS Lookup CRC:FC99EC8C
+GS Lookup CRC:FC99EC8C
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥IRX¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥IRX¥SDRDRV.IRX;1 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥IRX¥RADSOUND.IRX;1 args 0 arg 
+loadmodule: id 27, ret 0
+radSound: IopLoadServer Init:
+    Version:                  [0x107]
+    Debug Channel Enabled:    [0x0]
+    UnInterleave Buffer Size: [34816]
+    Transfer Buffer Size:     [34816]
+    Clear Buffer Size:        [8192]
+    Total Memory Used:        [77824]
+radSound: IopVoiceServer Init
+    Version: [0x107]
+loadmodule: fname cdrom0:¥IRX¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥IRX¥MTAPMAN.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥IRX¥PADMAN.IRX;1 args 0 arg 
+loadmodule: id 30, ret 0
+loadmodule: fname cdrom0:¥IRX¥USBD.IRX;1 args 0 arg 
+USB Driver (Version 1.1.0)
+loadmodule: id 31, ret 2
+loadmodule: fname cdrom0:¥IRX¥LGDEVW.IRX;1 args 0 arg 
+LgDev_tb_rb_Driver Version 1.08( Wheel ), built on Sep 24 2002 at 18:34:09, thpri=42,43
+loadmodule: id 32, ret 0
+Version 1.08, built on Sep 24 2002 at 18:34:54
+loadmodule: fname cdrom0:¥IRX¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 33, ret 2
+loadmodule: fname cdrom0:¥IRX¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 34, ret 2
+
+(pcsx2:74167): Gtk-CRITICAL **: 02:11:17.230: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(pcsx2:74167): Gtk-CRITICAL **: 02:11:24.508: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+Apply memory cards:
+slot[0]='my memory card.ps2'
+slot[1]='Mcd002.ps2'
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+isoFile open ok: /home/ankar/Downloads/Simpsons, The - Hit & Run (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1051888 sectors)
+(Cubeb) Using normal 2 speaker stereo output.
+(Cubeb) Minimum latency: 25.00 ms (1200 audio frames)
+(Cubeb) Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+McdSlot 0 [File]: /home/ankar/.config/PCSX2/memcards/my memory card.ps2
+McdSlot 1 [File]: /home/ankar/.config/PCSX2/memcards/Mcd002.ps2
+[02:12:06.149] Auto-ejecting memcard [port:0, slot:0]
+[02:12:06.231] Auto-ejecting memcard [port:1, slot:0]
+[02:12:07.866] Re-inserting auto-ejected memcard [port:0, slot:0]
+[02:12:07.945] Re-inserting auto-ejected memcard [port:1, slot:0]
+
+(pcsx2:74167): Gtk-WARNING **: 02:13:58.137: Negative content height -5 (allocation 1, extents 3x3) while allocating gadget (node button, owner GtkToggleButton)
+
+(pcsx2:74167): Gtk-WARNING **: 02:13:58.138: for_size smaller than min-size (8 < 28) while measuring gadget (node entry, owner GtkSpinButton)
+
+(pcsx2:74167): Gtk-WARNING **: 02:13:58.138: for_size smaller than min-size (8 < 16) while measuring gadget (node button, owner GtkSpinButton)
+
+(pcsx2:74167): Gtk-WARNING **: 02:13:58.138: for_size smaller than min-size (8 < 16) while measuring gadget (node button, owner GtkSpinButton)
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+Applying GS settings...
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+(FileMcd) Warning: checksum sector overwritten. (0)
+(FileMcd) Warning: checksum sector overwritten. (0)
+
+(pcsx2:74167): Gdk-CRITICAL **: 02:14:46.962: gdk_window_process_updates: assertion 'GDK_IS_WINDOW (window)' failed
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Apply memory cards:
+slot[0]='my memory card.ps2'
+slot[1]='Mcd002.ps2'
+
+(pcsx2:74167): Gtk-WARNING **: 02:15:20.684: Negative content height -5 (allocation 1, extents 3x3) while allocating gadget (node button, owner GtkToggleButton)
+
+(pcsx2:74167): Gtk-WARNING **: 02:15:20.685: for_size smaller than min-size (8 < 28) while measuring gadget (node entry, owner GtkSpinButton)
+
+(pcsx2:74167): Gtk-WARNING **: 02:15:20.685: for_size smaller than min-size (8 < 16) while measuring gadget (node button, owner GtkSpinButton)
+
+(pcsx2:74167): Gtk-WARNING **: 02:15:20.685: for_size smaller than min-size (8 < 16) while measuring gadget (node button, owner GtkSpinButton)
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+Decommitting host memory for virtual systems...
+EE/iR5900-32 Recompiler Reset
+HLE Host: Set 'host:' root path to: /
+
+Patches: No CRC found, using 00000000 instead.
+(UpdateVSyncRate) Mode Changed to NTSC.
+isoFile open ok: /home/ankar/Downloads/Simpsons, The - Hit & Run (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1051888 sectors)
+(Cubeb) Using normal 2 speaker stereo output.
+(Cubeb) Minimum latency: 25.00 ms (1200 audio frames)
+(Cubeb) Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000001030000
+McdSlot 0 [File]: /home/ankar/.config/PCSX2/memcards/my memory card.ps2
+McdSlot 1 [File]: /home/ankar/.config/PCSX2/memcards/Mcd002.ps2
+	Bios Found: Japan   v01.00(17/01/2000)  Console
+	BIOS rom1 module not found, skipping...
+	BIOS rom2 module not found, skipping...
+	BIOS erom module not found, skipping...
+# Initialize memory (rev:3.17, ctm:393Mhz, cpuclk:295Mhz )
+48000 SampleRate: 
+48000 SampleRate: 
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2000-0117, IOP info (CPUID=1f, CACH_CONFIG=ffffffff, 2MB, IOP mode)
+ <20000117-050310,ROMconf,:11232>
+# Total accessable memory size: 32 MB (B:2:8:0)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Dec 10 1999 17:48:37
+  CPUID=2e20, BoardID=0, ROMGEN=2000-0117, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_206.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLUS_206.24;1) Game CRC = 0xFC99EC8C, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_206.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_206.24;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_206.24;1
+0 00100000 003ad4e4 ...........................................................
+Loaded, cdrom0:¥SLUS_206.24;1
+start address 0x100008
+gp address 00000000
+# Loader 'cdrom0:¥SLUS_206.24;1':pc=00100008
+Elf entry point @ 0x00100008 about to get recompiled. Load patches first.
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+(GameDB) Enabled Gamefix: FpuNegDiv
+[GameDB] Searching for 'slus-20624' in GameDB
+[GameDB] Found 'slus-20624' in GameDB
+[GameDB] Searching for patch with CRC 'fc99ec8c'
+[GameDB] No CRC-specific patch or default patch found
+EE/iR5900-32 Recompiler Reset
+Get Reboot Request From EE
+GS Lookup CRC:FC99EC8C
+GS Lookup CRC:FC99EC8C
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥IRX¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥IRX¥SDRDRV.IRX;1 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥IRX¥RADSOUND.IRX;1 args 0 arg 
+loadmodule: id 27, ret 0
+radSound: IopLoadServer Init:
+    Version:                  [0x107]
+    Debug Channel Enabled:    [0x0]
+    UnInterleave Buffer Size: [34816]
+    Transfer Buffer Size:     [34816]
+    Clear Buffer Size:        [8192]
+    Total Memory Used:        [77824]
+radSound: IopVoiceServer Init
+    Version: [0x107]
+loadmodule: fname cdrom0:¥IRX¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥IRX¥MTAPMAN.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥IRX¥PADMAN.IRX;1 args 0 arg 
+loadmodule: id 30, ret 0
+loadmodule: fname cdrom0:¥IRX¥USBD.IRX;1 args 0 arg 
+USB Driver (Version 1.1.0)
+loadmodule: id 31, ret 2
+loadmodule: fname cdrom0:¥IRX¥LGDEVW.IRX;1 args 0 arg 
+LgDev_tb_rb_Driver Version 1.08( Wheel ), built on Sep 24 2002 at 18:34:09, thpri=42,43
+loadmodule: id 32, ret 0
+Version 1.08, built on Sep 24 2002 at 18:34:54
+loadmodule: fname cdrom0:¥IRX¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 33, ret 2
+loadmodule: fname cdrom0:¥IRX¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 34, ret 2
